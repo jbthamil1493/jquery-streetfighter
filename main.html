@@ -2,12 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Streetfighter</title>
+	<title>Streetfighter with jQuery</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<div class="main">
+		<div class="ryu-container">
+			<div class="ryu">
+				<div class="ryu-standing-still"></div>
+				<div class="ryu-ready-position"></div>
+				<div class="ryu-throwing-hadouken"></div>
+				<div class="ryu-cool"></div>
+			</div>
+			<div class="hadouken">
+			</div>
+		</div>
+		<div class="text-content">
+			<div class="sf-logo"></div>
+			<div class="how-to">
+				<p>Click on Ryu to make him throw a Hadouken.</p>
+				<p>Press and hold down the "x" key to make him strike his cool pose!</p>
+			</div>
+		</div>
+	</div>
+	<audio id="theme-song" src="sound/theme.mp3">
+	<audio id="sound" src="sound/hadouken.mp3">
+	<audio id="cool" src="sound/dance.mp3"></audio>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
