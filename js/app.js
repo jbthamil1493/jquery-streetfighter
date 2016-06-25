@@ -37,7 +37,7 @@ $(document).ready(function() {
 		if (event.which === 88) {
 			playCool();
 			$('.ryu-cool').show();
-			$('ryu-standing-still').hide();
+			$('.ryu-standing-still').hide();
 			$('.ryu-ready-position').hide();
 		}
 	});
